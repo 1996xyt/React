@@ -1,0 +1,14 @@
+
+.App {
+  text-align: center;
+}
+
+.main{
+width: 100%;
+overflow: hidden;
+}
+.content{
+  width: 1000px;
+  margin: 0 auto;
+  
+}

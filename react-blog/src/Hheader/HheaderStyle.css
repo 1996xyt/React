@@ -1,0 +1,63 @@
+.header{
+    border-bottom: 1px solid #eceef1;
+    overflow: hidden
+}
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.containerleft {
+    height: 50px;
+    width: 323px;
+    
+}
+
+.logo {
+    width: 113px;
+    line-height: 50px;
+    float: left;
+}
+
+.logo img {
+    width: 100%
+}
+.menutags{
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+}
+.menutags div{
+    width: 30%;
+    line-height: 50px;
+    font-size: 15px;
+    color: #87969d;
+}
+.containerright {
+    height: 50px;
+    width: 455px;
+    display: flex;
+    justify-content: space-between;
+}
+.containerright button{
+    width: 80%;
+    padding: 0;
+}
+.search{
+    width: 50%;
+    line-height: 50px;
+    text-align: left;
+}
+.smallbtn{
+    width: 10%;
+    line-height: 50px;
+}
+.lagerbtn{
+    width: 30%;
+    line-height: 50px;
+}
